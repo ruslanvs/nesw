@@ -14,6 +14,7 @@
 		A6B86FE72058C32D00B07FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B86FE52058C32D00B07FA2 /* LaunchScreen.storyboard */; };
 		A6B86FF22058C32D00B07FA2 /* neswTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B86FF12058C32D00B07FA2 /* neswTests.swift */; };
 		A6B86FFD2058C32D00B07FA2 /* neswUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B86FFC2058C32D00B07FA2 /* neswUITests.swift */; };
+		A6B8700B2058C4E600B07FA2 /* ToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B8700A2058C4E600B07FA2 /* ToViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A6B86FF82058C32D00B07FA2 /* neswUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neswUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B86FFC2058C32D00B07FA2 /* neswUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neswUITests.swift; sourceTree = "<group>"; };
 		A6B86FFE2058C32D00B07FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B8700A2058C4E600B07FA2 /* ToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A6B86FDC2058C32D00B07FA2 /* AppDelegate.swift */,
 				A6B86FDE2058C32D00B07FA2 /* ViewController.swift */,
 				A6B86FE02058C32D00B07FA2 /* Main.storyboard */,
+				A6B8700A2058C4E600B07FA2 /* ToViewController.swift */,
 				A6B86FE32058C32D00B07FA2 /* Assets.xcassets */,
 				A6B86FE52058C32D00B07FA2 /* LaunchScreen.storyboard */,
 				A6B86FE82058C32D00B07FA2 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B86FDF2058C32D00B07FA2 /* ViewController.swift in Sources */,
+				A6B8700B2058C4E600B07FA2 /* ToViewController.swift in Sources */,
 				A6B86FDD2058C32D00B07FA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
