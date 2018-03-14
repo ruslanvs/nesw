@@ -20,6 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func directionButtonPressed(_ sender: UIButton) {
+        if let titleLabel = sender.titleLabel {
+            if let text = titleLabel.text {
+                print( text )
+            }
+        }
+    }
+    
 
 }
 
