@@ -10,25 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var textToGo: String?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     
     @IBAction func directionButtonPressed(_ sender: UIButton) {
         if let titleLabel = sender.titleLabel {
             if let text = titleLabel.text {
-                print( text )
+                textToGo = text
             }
         }
+        performSegue( withIdentifier: "goDirection", sender: sender )
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! ToViewController
+        destination.text = textToGo
+    }
 }
 
