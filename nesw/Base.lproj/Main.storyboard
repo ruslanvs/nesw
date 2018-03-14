@@ -17,10 +17,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwl-JZ-Xp3">
+                                <rect key="frame" x="167" y="72" width="40" height="30"/>
+                                <state key="normal" title="North"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFr-Oz-pca">
+                                <rect key="frame" x="8" y="318.5" width="35" height="30"/>
+                                <state key="normal" title="West"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omz-ZL-uam">
+                                <rect key="frame" x="337" y="318.5" width="30" height="30"/>
+                                <state key="normal" title="East"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eL4-4q-1Re">
+                                <rect key="frame" x="167" y="629" width="41" height="30"/>
+                                <state key="normal" title="South"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eL4-4q-1Re" secondAttribute="bottom" constant="8" id="AzQ-dh-Wm9"/>
+                            <constraint firstItem="Dwl-JZ-Xp3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="FbQ-le-RdU"/>
+                            <constraint firstItem="omz-ZL-uam" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OZZ-2c-H68"/>
+                            <constraint firstItem="eFr-Oz-pca" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Z9K-Ee-Ln5"/>
+                            <constraint firstItem="eL4-4q-1Re" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dXv-uS-RHT"/>
+                            <constraint firstItem="Dwl-JZ-Xp3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="skb-O8-rpU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="omz-ZL-uam" secondAttribute="trailing" constant="8" id="z7E-Kg-4sP"/>
+                            <constraint firstItem="eFr-Oz-pca" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="zH6-gs-5q3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="J7Q-gs-Ntr"/>
+                    <connections>
+                        <segue destination="QPJ-7O-A7F" kind="presentation" id="yfr-WI-cI6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
